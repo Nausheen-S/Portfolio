@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Noto_Serif';
+    src: url(../scripts/Noto_Serif/NotoSerif-Bold.ttf) format('ttf');
+}
+
+/***************** Containers *********************/
+
+.experienceBodyBottomContainer{
+    padding-bottom: 15px;
+}
+
+.experienceBodyBottomCardContainer {
+    margin: 1em;
+}
+
+/***************** Headings *********************/
+
+.experienceBodyHeading {
+    margin-top: 0.05em;
+    font-family: 'Noto-serif';
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    color:#5E2D1F;
+}
+
+.experienceBodyTopContainerHeading,
+.experienceBodyBottomContainerHeading {
+    font-family: 'Work Sans', sans-serif;
+    margin: 1.5em 0 2% 0;
+    font-size: 2.5em;
+    color: #5F5E5E;
+}
+
+.experienceBodyBottomCardTitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+/***************** Text *********************/
+
+.experienceBodyTopContainerText,
+.experienceBodyBottomCardText {
+    font-family: 'Nato_Serif';
+    font-size: 1.2em;
+    text-align: justify;
+}

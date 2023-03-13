@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Noto_Serif';
+    src: url(../scripts/Noto_Serif/NotoSerif-Bold.ttf) format('ttf');
+}
+
+/***************** Containers *********************/
+
+.homeBodyContainer {
+    margin: auto;
+}
+
+/***************** Headings *********************/
+
+.homeBodyConName {
+    font-family: 'Noto-serif';
+    font-size: 3em;
+    text-align: center;
+    color:#5E2D1F;
+}
+
+.homeBodyConTitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #5F5E5E;
+}
+
+/***************** Images *********************/
+
+.homeBodyConImg {
+    display: block;
+    margin: 1% auto;
+    width: 30%;
+    height: 65%;
+    border-radius: 43%;
+    border: 2px solid #B7C6C9; 
+    padding: 1em;
+}
+
+@media (max-width: 991.98px) {
+    .homeBodyConImg {
+        border-radius: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .homeBodyConImg {
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .homeBodyConImg {
+        width: 70%;
+        height: 70%;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .homeBodyConImg {
+        border-radius: 50%;
+    }
+}
+

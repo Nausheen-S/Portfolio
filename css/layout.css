@@ -1,0 +1,57 @@
+/***************** Containers *********************/
+
+html,body {
+    height: 100%;
+}
+
+.homeHeaderLogoCon {
+    max-width: 30%;
+}
+
+@media (max-width: 350px) {
+    .html {
+        min-width: 350px;
+    }
+}
+
+/***************** Navigation *********************/
+
+.nav-item a {
+    font-family: 'Noto-Serif';
+    color: #B46E53!important;
+    font-size: 1.75em;
+    font-weight:200;
+}
+
+/***************** Headings *********************/
+
+/***************** Buttons *********************/
+
+.homeHeaderBtn,
+.homeHeaderBtn:hover,
+.homeHeaderBtn:focus {
+    background-color: hsl(8, 95%, 57%);
+    color: white;
+    font-family: 'Noto-serif';
+    border: 0;
+}
+
+@media (max-width: 1010px) {
+    .homeHeaderBtn{
+        font-size: 20px;
+    }
+}
+
+/***************** Images *********************/
+
+.homeHeaderImg {
+    width: 30%;
+}
+
+@media (max-width: 991.98px) {
+    .homeHeaderImg {
+        width: 35%;
+    }
+}
+
+

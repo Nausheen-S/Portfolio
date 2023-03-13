@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Me</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="../scripts/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../scripts/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/contact.css">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="../scripts/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg homeHeaderContainer">
+                <div class="container-fluid">
+                    <a class="navbar-brand homeHeaderLogoCon" href="home.html">
+                        <img class="homeHeaderImg" src="../images/nausheenlogo.png" alt="Nausheen Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="experience.html">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../images/Nausheen_Salauddin_Resume.pdf" download target="_blank">
+                                    <button class="homeHeaderBtn">Resume <i class="bi bi-download"></i></button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h1 class="contactBodyHeading">Contact Me</h1>
+            <p class="contactBodyTitle">Get in touch to get the ball rolling</p>
+        </header>
+        <main class="contactBodyContainer container-fluid d-flex flex-wrap justify-content-evenly">
+            <section class="contactBodyTopContainer">
+                <div class="contactBodyPhoneContainer">
+                    <div class="contactBodyPhoneImg">
+                        <a href="tel:+14379834081"><i class="bi bi-telephone-fill"></i></a>
+                    </div>
+                </div>
+                <div class="contactBodyEmailContainer">
+                    <div class="contactBodyEmailImg">
+                        <a href="mailto:salauddinnausheen@gmail.com">
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contactBodyLinkedinContainer">
+                    <div class="contactBodyLinkedinImg">
+                        <a href="https://www.linkedin.com/in/nausheensalauddin/""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contactBodyGithubContainer">
+                    <div class="contactBodyGithubImg">
+                        <a href="https://github.com/nausheen-s"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="contactBodyBottomContainer">
+                <form action="https://formspree.io/f/mnqyzbby" method="POST">
+                    <input type="hidden" name="_subject" value="New message from contact form">
+                    <input type="hidden" name="_cc" value="salauddinnausheen@gmail.com">              
+                    <div class="row mb-3">
+                        <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input name="inputName3" type="text" class="form-control" id="inputName3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input name="inputEmail3" type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="message3" class="col-sm-2 col-form-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea name="message3" class="form-control" id="message3"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary homeHeaderBtn contactFormBtn">Ping Me <i class="bi bi-send-fill"></i></button>
+                </form>
+            </section>
+        </main>
+        
+    </body>
+</html>
