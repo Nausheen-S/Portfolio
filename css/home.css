@@ -30,9 +30,7 @@
 .homeBodyConImg {
     display: block;
     margin: 1% auto;
-    width: 30%;
-    height: 65%;
-    border-radius: 43%;
+    border-radius: 50%;
     border: 2px solid #B7C6C9; 
     padding: 1em;
 }
@@ -49,17 +47,11 @@
     }
 }
 
-@media (max-width: 800px) {
-    .homeBodyConImg {
-        width: 70%;
-        height: 70%;
-        border-radius: 50%;
-    }
-}
-
 @media (max-width: 700px) {
     .homeBodyConImg {
-        border-radius: 50%;
+        display: block;
+        margin: auto;
+        width: 80%;
     }
 }
 
